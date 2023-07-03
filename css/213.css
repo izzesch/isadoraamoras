@@ -1,0 +1,132 @@
+@font-face {
+    font-family: MoohLahLah;
+    src: url(../font/MooLahLah-Regular.ttf);
+ }
+
+body {
+    font: 13px tahoma;
+    color: #c9c9c9;
+    text-align: center;
+    letter-spacing: 1px;
+    background-image: url(../img/bg.png);
+    background-repeat: repeat;
+    background-position: top;
+    max-height: 950px;
+}
+p {
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 420px;
+    margin-bottom: 10px;
+}
+b {
+    color: #fcc7c5;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+i {
+    color: #fcc7c5;
+}
+h2 {
+    font: 3.8em MoohLahLah;
+    color: #fcc7c5;
+    letter-spacing: 7px;
+    max-width: 470px;
+    text-align: center;
+    margin: 0 auto;
+}
+h3 {
+    font: 4em MoohLahLah;
+    color: #fcc7c5;
+    letter-spacing: 7px;
+    max-width: 420px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.header {
+    letter-spacing: 9px;
+    margin: 120px 30px 80px 30px;
+}
+.gata {
+    border-radius: 50%;
+}
+.babi {
+    margin-top: 40px;
+}
+.nasa {
+    margin-top: 40px;
+}
+.jorge {
+    margin-top: 40px;
+}
+ul, li a {
+    list-style-type: none;
+    color: #c9c9c9;
+    text-decoration: none;
+    text-align: left;
+    letter-spacing: 1.5px;
+    max-width: 470px;
+    margin: 0 auto;
+}
+ul li:before {
+    content: "⁺ . ";
+}
+li a:hover {
+    color: #fcc7c5;
+}
+table {
+    border-collapse: collapse;
+    max-width: 420px;
+    margin: 0 auto;
+}
+th, td {
+    border: 1px solid #fcc7c5;
+    padding: 8px;
+}
+#container {
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background-image:url(../img/middle.png);
+    background-repeat: repeat-y;
+    background-position: top;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#extraDiv1 {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    min-height: 152px;
+    background: url(../img/top.png) no-repeat;
+    background-attachment: initial;
+    background-position: top;
+}
+#extraDiv2 {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    min-height: 51px;
+    background: url(../img/bottom.png) no-repeat;
+    background-attachment: initial;
+    background-position: bottom;
+}
+#extraDiv3 {
+    position: fixed;
+    bottom: 0;
+    left: -450px;
+    pointer-events: none;
+    width: 100%;
+    min-height: 498px;
+    background: url(../img/milky.png) no-repeat;
+    background-attachment: initial;
+    background-position: bottom;
+}
